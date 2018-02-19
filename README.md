@@ -3,6 +3,8 @@
 # CarND-Finding-Lane-Lines
 This project takes images from a video feed then identifies the two nearest lanes.  The lanes are identified through image processing techniques.  The output is a video that displays these lines as overlays.
 
+![Output Lane Lines Image](examples/laneLines_thirdPass.jpg)
+
 ## Contents
 1. Setup Instructions
 2. Examples
