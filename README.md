@@ -16,14 +16,14 @@ This project takes images from a video feed then identifies the two nearest lane
 ## Code Sequence
 1. Extract Image from Video
 
-## Image Process - Pipeline
+### Image Process - Pipeline
 1. Grayscale Conversion
 2. Gaussian Smoothing
 3. Canny Filter
 4. Region Masking
 5. Hough Filter
 
-## Draw Lines
+### Draw Lines
 1. Find Slope
 2. Separate Left and Right Values
 3. Generate Linear Fit
