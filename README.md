@@ -5,6 +5,20 @@ This project takes images from a video feed then identifies the two nearest lane
 
 ![Output Lane Lines Image](examples/laneLines_thirdPass.jpg)
 
+## Overview
+The code extracts images from a video of the road taken from cameras mounted on a car.  These images are filtered for the lanes.
+**Image Process - Pipeline**
+
+1. Grayscale Conversion
+
+2. Gaussian Smoothing - Reduce Noise
+
+3. Canny Filter - Edge Detection
+
+4. Region Masking - Pre-Process
+
+5. Hough Filter - Line Segment Detection
+
 ## Motivation
 The motivation behind this problem is to address one aspect of the self-driving car challenge.  Identifying lanes provides the autonomous software more information about its environment.  The software then can make a decision and adjust its controls to safely navigate.
 
@@ -33,6 +47,7 @@ For testing there are test images, test videos, and examples for comparison purp
 1. Lines must be linear
 2. Obstructions may compromise performance
 3. Color saturation can cause algorithm to fail
+4. Image size is hard coded so it may be incompatible with different perspectives/sizes
 
 ## Future Improvements
 1. Region mask earlier in program to reduce processing time
