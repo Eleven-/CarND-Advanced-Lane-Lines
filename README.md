@@ -7,6 +7,7 @@ This project takes images from a video feed then identifies the two nearest lane
 
 ## Overview
 The code extracts images from a video of the road taken from cameras mounted on a car.  These images are filtered for the lanes.
+
 **Image Process - Pipeline**
 
 1. Grayscale Conversion
